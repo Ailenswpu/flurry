@@ -8,7 +8,7 @@ module Util
 
   def save_row_database row
     spin = Spin.new(
-    timestamp: row[0],
+    timestamp: Time.parse(row[0]),
     session_index: row[1],
     event: row[2],
     description: row[3],
