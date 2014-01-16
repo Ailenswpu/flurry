@@ -1,5 +1,5 @@
 require 'csv'
-class Util
+module Util
   def import_csv_data path
     CSV.open(path,{:headers => true}).each do |row|
       save_row_database row
