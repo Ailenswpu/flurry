@@ -1,0 +1,16 @@
+<div style="width:2000px;height:200px;">
+	<% @top10.each_with_index do |user,index|%>
+	<div id="placeholder<%= index%>" style="width:100%;height:100%;float:left;">
+	 
+	</div>
+	<% end %>
+	
+</div>
+<script type="text/javascript" charset="utf-8">
+$(function() {
+	<% @top10.each_with_index do |user,index|%>
+	$.plot("#placeholder<%= index%>", [ {label: "top<%=index+1%>",data: <%= raw userdata(user[0]) %> }],{points: { show: true } });
+	<% end %>
+	
+});
+</script>

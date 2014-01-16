@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  summary: MyString
+  gem: MyString
+  level: MyString
+  coins: MyString
+  win_ration: MyString
+  spin_mode: MyString
+  bonus: MyString
+  boost: MyString
+
+two:
+  summary: MyString
+  gem: MyString
+  level: MyString
+  coins: MyString
+  win_ration: MyString
+  spin_mode: MyString
+  bonus: MyString
+  boost: MyString
