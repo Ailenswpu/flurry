@@ -3,7 +3,7 @@
    encoding: utf8
    pool: 10
    username: root
-   password: root
+   password: BigBang!@#$
    host: localhost
    port: 3306
 
